@@ -1,0 +1,17 @@
+﻿  NetworkObject.cpp
+e:\box sync\spr2018\csc340\networkproject\networkproject\networkobject.cpp(29): warning C4018: '<': signed/unsigned mismatch
+e:\box sync\spr2018\csc340\networkproject\networkproject\networkobject.cpp(41): error C3867: 'std::queue<Packet *,std::deque<_Ty,std::allocator<_Ty>>>::front': non-standard syntax; use '&' to create a pointer to member
+          with
+          [
+              _Ty=Packet *
+          ]
+e:\box sync\spr2018\csc340\networkproject\networkproject\networkobject.cpp(44): error C3867: 'std::queue<Packet *,std::deque<_Ty,std::allocator<_Ty>>>::front': non-standard syntax; use '&' to create a pointer to member
+          with
+          [
+              _Ty=Packet *
+          ]
+e:\box sync\spr2018\csc340\networkproject\networkproject\networkobject.cpp(44): error C2679: binary '=': no operator found which takes a right-hand operand of type 'overloaded-function' (or there is no acceptable conversion)
+  e:\box sync\spr2018\csc340\networkproject\networkproject\packet.h(25): note: could be 'Packet &Packet::operator =(Packet &&) noexcept(<expr>)'
+  e:\box sync\spr2018\csc340\networkproject\networkproject\packet.h(25): note: or       'Packet &Packet::operator =(const Packet &)'
+  e:\box sync\spr2018\csc340\networkproject\networkproject\networkobject.cpp(44): note: while trying to match the argument list '(Packet, overloaded-function)'
+e:\box sync\spr2018\csc340\networkproject\networkproject\networkobject.cpp(71): warning C4018: '<': signed/unsigned mismatch
